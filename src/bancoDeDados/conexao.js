@@ -19,6 +19,15 @@ const pool = new Pool({
 
 });
 
+// const pool = new Pool({
+//     user: 'postgres',
+//     host: 'localhost',
+//     database: 'locadora',
+//     password: '88321656',
+//     port: 5432
+
+// });
+
 
 
 const query = (text, param) => {
