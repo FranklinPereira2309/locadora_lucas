@@ -42,7 +42,7 @@ const cadastrarLogin = async (req, res) => {
 
 
     } catch (error) {
-        return res.status(500).json({ mensagem: `${erro.message}` });
+        return res.status(500).json({ mensagem: `${error.message}` });
     }
 }
 
@@ -125,7 +125,7 @@ const atualizarUsuario = async (req, res) => {
         return res.status(204).json();
 
     } catch (error) {
-        return res.status(500).json({ mensagem: 'Ocorreu um erro desconhecido. - ' + error.message });
+        return res.status(500).json({ mensagem: `${error.message}` });
     }
 }
 
