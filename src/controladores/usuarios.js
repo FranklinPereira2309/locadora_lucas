@@ -89,7 +89,7 @@ const consultarGeralLogin = async (req, res) => {
 
 }
 
-const atualizarUsuario = async (req, res) => {
+const atualizarLogin = async (req, res) => {
     const { nome, email, senha } = req.body;
     const { usuario } = req;
 
@@ -129,7 +129,7 @@ const atualizarUsuario = async (req, res) => {
     }
 }
 
-const deletarUsuario = async (req, res) => {
+const deletarLogin = async (req, res) => {
     const idUsuario = req.params.id;
     
     try {
@@ -162,6 +162,6 @@ module.exports = {
     cadastrarLogin,
     consultarLogin,
     consultarGeralLogin,
-    atualizarUsuario,
-    deletarUsuario
+    atualizarLogin,
+    deletarLogin
 }

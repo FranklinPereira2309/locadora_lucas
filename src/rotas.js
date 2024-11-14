@@ -12,8 +12,8 @@ rotas.get('/consultar_geral_login', usuarios.consultarGeralLogin);
 rotas.use(verificarLogin);
 
 rotas.get('/consultar_login', usuarios.consultarLogin);
-rotas.post('/atualizar_login', usuarios.atualizarUsuario);
-rotas.delete('/deletar_login/:id', usuarios.deletarUsuario);
+rotas.post('/atualizar_login', usuarios.atualizarLogin);
+rotas.delete('/deletar_login/:id', usuarios.deletarLogin);
 
 module.exports = rotas
 
