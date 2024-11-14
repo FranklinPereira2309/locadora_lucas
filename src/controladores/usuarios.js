@@ -2,7 +2,7 @@ const conexao = require('../bancoDeDados/conexao');
 const bcrypt = require('bcrypt');
 const yup = require('yup');
 const { setLocale } = require('yup')
-const { pt, da } = require('yup-locales');
+const { pt } = require('yup-locales');
 
 
 const cadastrarLogin = async (req, res) => {
