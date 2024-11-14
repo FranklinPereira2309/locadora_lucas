@@ -8,11 +8,11 @@
   - Método: `POST`	
   - Endpoint: `/cadastrar_login`
   - Descrição: Rota para cadastrar um novo login de usuário.
-{
-“nome”:”Fraulano de Tal”, 
-“email”:fulano@domino.com,
-		“senha”:”12345”
-}
+-{
+-“nome”:”Fraulano de Tal”, 
+-“email”:fulano@domino.com,
+-“senha”:”12345”
+-}
 
 
 - **Login**
