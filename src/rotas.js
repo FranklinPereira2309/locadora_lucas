@@ -8,10 +8,6 @@ const rotas = express();
 rotas.post('/cadastrar_login', usuarios.cadastrarLogin);
 rotas.post('/login', login.login);
 rotas.get('/consultar_geral_login', usuarios.consultarGeralLogin);
-rotas.get('/home', ()=> {
-    console.log('Bem-vindo!!!');
-    
-})
 
 rotas.use(verificarLogin);
 
